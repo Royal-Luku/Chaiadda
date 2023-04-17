@@ -1,8 +1,8 @@
 <p align="center">
-  <img src="https://telegra.ph/file/68d28011b2bc356b5db01.png" alt="Lazy Princess Logo">
+  <img src="https://telegra.ph/file/54bb83ef8981a3c73f71b.jpg" alt="Royal Dwip Present">
 </p>
 <h1 align="center">
-  <b> Lazy PrincessV2.0 </b>
+  <b> Chai Adda Bot </b>
 </h1>
 
 

@@ -1,11 +1,11 @@
 class script(object):
     START_TXT = """Hey {},
-Myself <a href=https://t.me/{}>{}</a>,\n\n**I Am Best AutoFilterBot With Some Different Powers! \n\nAnd I Am Best TG File Rename Bot Also \n\nMade By Love With @RoyalDwip**"""
+Myself <a href=https://t.me/{}>{}</a>,\n\n<b>I Am A AutoFilterBot With Some Different Power's\n\nDon't Search Movies On P.M! I Can't Send Any Movies In P.M Just Add Me On Your Group As Admin And Search Unlimited Movies 🙂\n\nNote -: I Am Artificial intelligence Bot Also But This Feature Work Only On P.M </b>"""
     LZTHMB_TEXT = """Hello {},
-Glad to see you here. It seems that you really love <a href=https://t.me/royaldwip >♻️ Royal Dwip ♻️</a> work.\n\n<b>Thumbnail extracting</b> feature will be available soon, please join <a href=https://t.me/LazyDeveloper>Dev Channel</a> and stay tuned for next <a href=https://t.me/LazyDeveloper>update</a>.\n\n  🐞 Report Bug here: <a href=http://t.me/LazyDeveloperSupport>LazyDev Support</a>
+Glad to see you here. It seems that you really love <a href=https://t.me/royaldwip >♻️ Royal Dwip ♻️</a> work.</a>
     """
     LZLINK_TEXT = """Hey {},
-Glad to see you here. It seems that you really love <a href=https://t.me/royaldwip >♻️ Royal Dwip ♻️</a> work.\n\n<b>File to LiNK converting</b> feature will be available soon, please join <a href=https://t.me/LazyDeveloper>Dev Channel</a> and stay tuned for next <a href=https://t.me/LazyDeveloper>update</a>.\n\n  🐞 Report Bug here: <a href=http://t.me/LazyDeveloperSupport>LazyDev Support</a>
+Glad to see you here. It seems that you really love <a href=https://t.me/royaldwip >♻️ Royal Dwip ♻️</a> work.</a>
     """
     DNT_TEXT = """Hey sweetie {},
 Thanks for thinking about us.\nIt seems that you really love <a href=https://t.me/royaldwip >♻️ Royal Dwip ♻️</a> work. 
@@ -14,10 +14,10 @@ Thanks for thinking about us.\nIt seems that you really love <a href=https://t.m
 \nSorry bro.. You must have to be the Authentic User to complete this operation...\n\n👮‍♀ REPORT ISSUE HERE: <a href=https://t.me/WomSupport>Support</a>\n\n
     """
     ALRDY_UPLDD_TEXT = """✅ Content is already uploaded.\n\nName:{}\nPlease make sure about your spelling before submiting request..."""
-    HELP_TXT = """𝙷𝙴𝚈 {}
-Here is the help for my COMMANDS."""
+    HELP_TXT = """<b>Hey {}\n
+Here is the help for my COMMANDS.\n\nMade By @RoyalDwip ❤</b>"""
     ABOUT_TXT = """✯ 𝙼𝚈 𝙽𝙰𝙼𝙴: {}
-✯ 𝙲𝚁𝙴𝙰𝚃𝙾𝚁: <a href=https://t.me/royaldwip>Royal Dwip</a>
+✯ 𝙲𝚁𝙴𝙰𝚃𝙾𝚁: <a href=https://t.me/royaldwip>𝚁𝙾𝚈𝙰𝙻 𝙳𝚆𝙸𝙿</a>
 ✯ 𝙻𝙸𝙱𝚁𝙰𝚁𝚈: 𝙿𝚈𝚁𝙾𝙶𝚁𝙰𝙼
 ✯ 𝙻𝙰𝙽𝙶𝚄𝙰𝙶𝙴: 𝙿𝚈𝚃𝙷𝙾𝙽 𝟹
 ✯ 𝙳𝙰𝚃𝙰 𝙱𝙰𝚂𝙴: 𝙼𝙾𝙽𝙶𝙾 𝙳𝙱

@@ -52,7 +52,7 @@ async def start(client, message):
             InlineKeyboardButton('★ Developer ★', url='https://t.me/royaldwip'),
             InlineKeyboardButton('★ Movies Channel ★', url='https://t.me/worldofmovies8')
             ],[
-            InlineKeyboardButton(★ Help ★', callback_data='help'),
+            InlineKeyboardButton('★ Help ★', callback_data='help'),
             InlineKeyboardButton('★ About ★', callback_data='about')
             ],[
             InlineKeyboardButton('★ Subscribe YT Channel ★', url='https://youtube.com/@Technicaldwip')

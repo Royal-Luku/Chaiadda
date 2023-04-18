@@ -27,9 +27,9 @@ async def lazy_answer(client, message):
                         [InlineKeyboardButton(text=f"🗑 Delete log ❌", callback_data=f'close_data')],
                     ]
                 reply_markup=InlineKeyboardMarkup(btn)
-                footer_credit = "♻️<a href='https://telegram.me/womsupport'>♻️ 𝗗𝗿𝗼𝗽 𝗬𝗼𝘂𝗿 𝗜𝘀𝘀𝘂𝗲 ♻️</a>══<a href='https://telegram.me/RoyalDwip'>♻️ 𝗖𝗼𝗻𝘁𝗮𝗰𝘁 𝗗𝗲𝘃 ♻️</a>♻️"
+                footer_credit = "Thanks For Using Me 🙋\n\n<a href='https://telegram.me/womsupport'>◦•●◉✿ Drop Your Issues ✿◉●•◦</a>\n<a href='https://telegram.me/RoyalDwip'>◦•●◉✿ Developer Here ✿◉●•◦</a>♻️"
                 lazy_response = response.choices[0].text 
-                await client.send_message(LAZY_AI_LOGS, text=f"⚡️⚡️ #ROYAL_AI_Query \n\n• A user named **{message.from_user.mention}** with user id - `{user_id}`. Asked me this query...\n\n❚█══Q U E R Y══█❚\n\n\n[Q྿.]**{lazy_users_message}**\n\n#Responded_MSG:\n:-`{lazy_response}`\n\n\nUser ID - `{user_id}` \nUser Name - `{message.from_user.mention}` \n\n🗃️" , reply_markup = reply_markup )
+                await client.send_message(LAZY_AI_LOGS, text=f"⚡️⚡️ #ROYAL_AI_Query \n\n• Person User Name - **{message.from_user.mention}** with user id - `{user_id}`. Asked me this query...\n\n❚█══Q U E R Y══█❚\n\n\n[Q྿.]**{lazy_users_message}**\n\n#Reply_MSG:\n:-`{lazy_response}`\n\n\nUser ID - `{user_id}` \nUser Name - `{message.from_user.mention}` \n\nPowered By @RoyalDwip" , reply_markup = reply_markup )
                 await message.reply(f"{lazy_response}\n\n\n{footer_credit}")
             except Exception as error:
                 print(error)

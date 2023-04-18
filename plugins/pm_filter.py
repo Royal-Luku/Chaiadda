@@ -265,7 +265,7 @@ async def next_page(bot, query):
                 ]
     btn.insert(0,
         [ 
-	    InlineKeyboardButton(text="⚡ʜᴏᴡ ᴛᴏ ᴅᴏᴡɴʟᴏᴀᴅ⚡", url='https://telegram.me/LazyDeveloper')
+	    InlineKeyboardButton(text="⚡ʜᴏᴡ ᴛᴏ ᴅᴏᴡɴʟᴏᴀᴅ⚡", url='https://t.me/howtoopenchaiadda/3')
         ] 
     )
 
@@ -1115,7 +1115,7 @@ async def auto_filter(client, msg, spoll=False):
             user_id = message.from_user.id
             files, offset, total_results = await get_search_results(search.lower(), offset=0, filter=True)
             if not files:
-                await client.send_message(req_channel,f"-🦋 #REQUESTED_CONTENT 🦋-\n\n📝**Content Name** :`{search}`\n**Requested By**: {message.from_user.first_name}\n **USER ID**:{user_id}\n\n🗃️",
+                await client.send_message(req_channel,f"- #REQUESTED_CONTENT -\n\n📝**Content Name** :`{search}`\n**Requested By**: {message.from_user.first_name}\n **USER ID**:{user_id}\n\n🗃️",
                                                                                                        reply_markup=InlineKeyboardMarkup([
                                                                                                                                         [InlineKeyboardButton(text=f"✅Upload Done", callback_data=f"notify_userupl:{user_id}:{requested_movie}")],
                                                                                                                                         [InlineKeyboardButton(text=f"⚡Already Upl..", callback_data=f"notify_user_alrupl:{user_id}:{requested_movie}"),InlineKeyboardButton("🖊Spell Error", callback_data=f"notify_user_spelling_error:{user_id}:{requested_movie}")],
@@ -1223,7 +1223,7 @@ async def auto_filter(client, msg, spoll=False):
 
     btn.insert(0,
         [ 
-	    InlineKeyboardButton(text="⚡ʜᴏᴡ 2 ᴅᴏᴡɴʟᴏᴀᴅ⚡", url='https://telegram.me/LazyDeveloper'),
+	    InlineKeyboardButton(text="⚡ʜᴏᴡ 2 ᴅᴏᴡɴʟᴏᴀᴅ⚡", url='https://t.me/howtoopenchaiadda/3'),
         ] 
     )
     if offset != "":

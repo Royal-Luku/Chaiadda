@@ -1,6 +1,6 @@
 class script(object):
-    START_TXT = """Hey {},
-Myself <a href=https://t.me/{}>{}</a>,\n\n<b>I Am A AutoFilterBot With Some Different Power's\n\nDon't Search Movies On P.M! I Can't Send Any Movies In P.M Just Add Me On Your Group As Admin And Search Unlimited Movies 🙂\n\nNote -: I Am Artificial intelligence Bot Also But This Feature Work Only On P.M </b>"""
+    START_TXT = """<b>Hey {},
+\n 🦄 Myself <a href=https://t.me/{}>{}</a>,\n\nI Am A AutoFilterBot With Some Different Power's 😅\n\nDon't Search Movies On P.M! I Can't Send Any Movies In P.M Just Add Me On Your Group As Admin And Search Unlimited Movies 🙂\n\nNote -: I Am Artificial intelligence Bot Also But This Feature Work Only On P.M </b>"""
     LZTHMB_TEXT = """Hello {},
 Glad to see you here. It seems that you really love <a href=https://t.me/royaldwip >♻️ Royal Dwip ♻️</a> work.</a>
     """
@@ -53,7 +53,7 @@ Here is the help for my COMMANDS.\n\nMade By @RoyalDwip ❤</b>"""
 3. Buttons should be properly parsed as markdown format
 
 <b>URL buttons:</b>
-<code>[Button Text](buttonurl:https://t.me/LazyDeveloper)</code>
+<code>[Button Text](buttonurl:https://t.me/worldofmovies8)</code>
 
 <b>Alert buttons:</b>
 <code>[Button Text](buttonalert:This is an alert message)</code>"""

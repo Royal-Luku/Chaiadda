@@ -1122,7 +1122,7 @@ async def auto_filter(client, msg, spoll=False):
                                                                                                                                         [InlineKeyboardButton(text=f"😒Not Available", callback_data=f"notify_user_not_avail:{user_id}:{requested_movie}"),InlineKeyboardButton("❌Reject Req", callback_data=f"notify_user_req_rejected:{user_id}:{requested_movie}")],
                                                                                                                                         ]))
                 
-                l = await message.reply_text(text=f"Hey, {message.from_user.mention} ❤,\n\nYour Movie Request Send To Our Owner Dashboard ! 💛\n\n🙏 Please Give Some Time And Keep Patience ! \n\nThey Will Upload It As Soon As Possible. \n\n➟ 🍿 𝗥𝗲𝗾𝘂𝗲𝘀𝘁𝗲𝗱 𝗠𝗼𝘃𝗶𝗲 : `{search}`\n➟ 💫 𝗥𝗲𝗾𝘂𝗲𝘀𝘁𝗲𝗱 𝗕𝘆 : `{message.from_user.first_name}`\n\n༺ Please Wait Sometimes ༻\n\n🦄 ★ 𝗔𝗗𝗠𝗜𝗡 𝗦𝗨𝗣𝗣𝗢𝗥𝗧 ★ 🦄\n╰┈➤・☆ @{ADMIN_USRNM}",
+                l = await message.reply_text(text=f"<b>Hey, {message.from_user.mention} ❤,\n\nYour Movie Request Send To Our Owner Dashboard! 💛\n\n🙏 Please Give Some Time And Keep Patience ! \n\nThey Will Upload It As Soon As Possible. \n\n➟ 🍿 𝗥𝗲𝗾𝘂𝗲𝘀𝘁𝗲𝗱 𝗠𝗼𝘃𝗶𝗲 : `{search}`\n➟ 💫 𝗥𝗲𝗾𝘂𝗲𝘀𝘁𝗲𝗱 𝗕𝘆 : `{message.from_user.first_name}`\n\n༺ @WomBackup ༻\n\n🦄 ★ 𝗔𝗗𝗠𝗜𝗡 𝗦𝗨𝗣𝗣𝗢𝗥𝗧 ★ 🦄\n╰┈➤・☆ @{ADMIN_USRNM}</b>",
                                                                                                        reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton("✪ Developer ✪", url=f'http://t.me/royaldwip')],[InlineKeyboardButton("✪ Backup CH- ✪", url=f"https://t.me/wombackup"), InlineKeyboardButton("✪ ＹＴ ✪", url=f"https://youtube.com/@{LAZY_YT_HANDLE}"), InlineKeyboardButton("✪ Main Ch- ✪", url=f"https://t.me/{MAIN_CHANNEL_USRNM}")],[InlineKeyboardButton("➹ Thank You ➹", callback_data="close_data")]]))
                 await asyncio.sleep(20)
                 await l.delete()    
@@ -1342,7 +1342,7 @@ async def advantage_spell_chok(msg):
     movielist += [(re.sub(r'(\-|\(|\)|_)', '', i, flags=re.IGNORECASE)).strip() for i in gs_parsed]
     movielist = list(dict.fromkeys(movielist))  # removing duplicates
     if not movielist:
-        k = await msg.reply("Hey Sona! The requested content is currently unavailable in our database, have some patience 🙂 - our great admin will upload it as soon as possible \n             **or**\nDiscuss issue with admin here 👉  <a href='https://t.me/Discusss_Here'>Discuss Here</a> ♥️ ")
+        k = await msg.reply("Hey!\n\n The requested content is currently unavailable in our database, have some patience 🙂 - My owner will upload it as soon as possible \n             **or**\nDiscuss issue with admin here 👉  <a href='https://t.me/Womsupport'>Discuss Here</a> ♥️ ")
         await asyncio.sleep(10)
         await k.delete()
         return
@@ -1354,7 +1354,7 @@ async def advantage_spell_chok(msg):
         )
     ] for k, movie in enumerate(movielist)]
     btn.append([InlineKeyboardButton(text="Close", callback_data=f'spolling#{user}#close_spellcheck')])
-    await msg.reply("Hey Sona! The requested content is currently unavailable in our database, have some patience 🙂 - our great admin will upload it as soon as possible \n              **or**\nDiscuss issue with admin here 👉 <a href='https://t.me/Discusss_Here'>Discuss Here</a> ♥️ ",
+    await msg.reply("Hey!\n\n The requested content is currently unavailable in our database, have some patience 🙂 - My owner will upload it as soon as possible \n              **or**\nDiscuss issue with admin here 👉 <a href='https://t.me/Womsupport'>Discuss Here</a> ♥️ ",
                     reply_markup=InlineKeyboardMarkup(btn))
 
 
